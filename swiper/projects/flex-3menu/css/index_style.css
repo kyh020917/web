@@ -1,0 +1,77 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Outfit:wght@600&family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+    display:block;
+}
+body{
+    color: #000000;
+    background-color: #ccc;
+    display:block;
+    height: 100vh;
+}
+.contants{
+    width: 100%;
+    height: 100%;
+}
+
+ul{
+    width: 100%;
+    height: 100%;
+}
+ul{
+    display: flex;
+}
+ul li{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    line-height: 100vh;
+    font-size: 1.7rem;
+    color:lightgoldenrodyellow;
+    text-shadow: 2px 2px 2px #000;
+}
+
+#pro{
+    background-color: #ddd;
+    flex:1;
+    height: 100%;
+    background-image: url("../images/flower.jpg");
+    background-size: cover;
+}
+#des{
+    background-color: #eee;
+    flex:1;
+    height: 100%;
+    background-image: url("../images/ocean.jpg");
+    background-size: cover;
+}
+#sns{
+    background-color: #fff;
+    flex:1;
+    height: 100%;
+    background-image: url("../images/cat.jpg");
+    background-size: cover;
+}
+
+/* li.pro:hover{
+    flex:6;
+    transition:all 0.5s;
+}
+li.des:hover{
+    flex:6;
+    transition:all 0.5s;
+}
+li.sns:hover{
+    flex:6;
+    transition:all 0.5s;
+} */

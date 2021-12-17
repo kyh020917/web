@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>swiper</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                 <a href="projects/flex-3menu/index.html" target="_">
+                     <img src="images/flex-3menu.png" alt="" >
+                      <h1>flex-3menu</h1>
+                  </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="projects/cat-anime/index.html" target="_">
+                    <img src="images/cat-anime.png" alt="">
+                     <h1>cat-animate</h1>
+                 </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="projects/animation-3card/index.html" target="_">
+                    <img src="images/animation-3card.png" alt="">
+                     <h1>hover-3card</h1>
+                 </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="projects/icon-background/index.html" target="_">
+                    <img src="images/backgound-icon.png" alt="">
+                     <h1>hover-icon</h1>
+                 </a>
+            </div>
+            <div class="swiper-slide">Slide 5</div>
+            <div class="swiper-slide">Slide 6</div>
+            <div class="swiper-slide">Slide 7</div>
+            <div class="swiper-slide">Slide 8</div>
+            <div class="swiper-slide">Slide 9</div>
+        </div>
+    </div>
+
+
+
+
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "cards",
+            grabCursor: true,
+        });
+    </script>
+</body>
+
+</html>
