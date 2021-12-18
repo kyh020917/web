@@ -55,13 +55,6 @@ h1{
     transform: translate(-50%, -50%);
 }
 
-.swiper-slide:nth-child(5n) {
-    background-color: rgb(118, 163, 12);
-}
-
-.swiper-slide:nth-child(6n) {
-    background-color: rgb(180, 10, 47);
-}
 
 .swiper-slide:nth-child(7n) {
     background-color: rgb(35, 99, 19);
