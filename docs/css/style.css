@@ -56,10 +56,6 @@ h1{
 }
 
 
-.swiper-slide:nth-child(7n) {
-    background-color: rgb(35, 99, 19);
-}
-
 .swiper-slide:nth-child(8n) {
     background-color: rgb(0, 68, 255);
 }
